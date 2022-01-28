@@ -22,8 +22,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v1
-    - name: Run Discord Webhook
-      uses: Mist3r-Robot/classic-discord-webhook@main
+    - name: VN Discord Webhook
+      uses: VicariousNetwork/vn-discord-webhook@v1.1
       with:
         id: ${{ secrets.DISCORD_WEBHOOK_ID }}
         token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
