@@ -1,5 +1,5 @@
-name: 'Classic Discord Webhook'
-description: 'This GitHub Action sends simple discord messages for your commits.'
+name: 'VN Discord Webhook'
+description: 'This GitHub Action sends simple discord messages for your commits, designed for usage within Vicarious Network.'
 
 inputs:
   id:
