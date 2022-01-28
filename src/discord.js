@@ -36,7 +36,7 @@ function createEmbed(repo, branch, url, commits, size) {
 function getChangeLog(commits, size) {
     var changelog = ""
     for (var i in commits) {
-        if (i > 7) {
+        if (i > 15) {
             changelog += `+ ${size - i} more...\n`
             break
         }
